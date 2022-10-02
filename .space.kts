@@ -1,4 +1,4 @@
-job("gitPush conditions") {
+job("Build and push docker container") {
     startOn {
         gitPush {
             // run on changes in 'main'
