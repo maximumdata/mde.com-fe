@@ -20,8 +20,7 @@ job("gitPush conditions") {
             """
         }
         build {
-            context = "docker"
-            file = "./docker/Dockerfile"
+            file = "./Dockerfile"
         }
 
         push("mikedettmer.registry.jetbrains.space/p/frontend/containers/fe") {
